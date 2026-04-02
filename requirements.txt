@@ -1,0 +1,26 @@
+# ── Core (always required) ────────────────────────────────────────────────────
+spacy>=3.7
+pyphen>=0.14
+pandas>=2.0
+tqdm>=4.0
+
+# ── f05 phonemes ──────────────────────────────────────────────────────────────
+# Also requires system package:  sudo apt install espeak-ng
+phonemizer>=3.2
+
+# ── f10 morphemes ─────────────────────────────────────────────────────────────
+morfessor>=2.0
+
+# ── f11, f12, f21, f22, f23  (semantic variability + cluster distances) ───────
+gensim>=4.0
+scipy>=1.10
+numpy>=1.24
+
+# ── f16 polysemy ──────────────────────────────────────────────────────────────
+# Also requires NLTK data:
+#   python -c "import nltk; nltk.download('wordnet'); nltk.download('omw-1.4')"
+nltk>=3.8
+
+# ── f19 surprisal ─────────────────────────────────────────────────────────────
+transformers>=4.30
+torch>=2.0
