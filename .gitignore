@@ -1,0 +1,40 @@
+# ── External resources (download separately — see resources/README.md) ────────
+resources/*.csv
+resources/*.bin
+resources/*.txt
+resources/*.xlsx
+resources/*.xls
+resources/raw/
+resources/tmp/
+
+# ── Output feature files ──────────────────────────────────────────────────────
+data/
+features_*.csv
+*.npz
+
+# ── Python cache ──────────────────────────────────────────────────────────────
+__pycache__/
+*.py[cod]
+*.pyo
+.Python
+
+# ── Package build artifacts ───────────────────────────────────────────────────
+*.egg-info/
+dist/
+build/
+*.egg
+
+# ── Virtual environments ──────────────────────────────────────────────────────
+.venv/
+venv/
+env/
+
+# ── Editors ───────────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# ── Test files ────────────────────────────────────────────────────────────────
+test.py
